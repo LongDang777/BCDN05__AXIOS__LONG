@@ -89,7 +89,7 @@ function themNguoiDung() {
   isValid = validation.checkEmpty(
     hinhAnh,
     "tbHinhND",
-    "Email không được để trống"
+    "Hinh không được để trống"
   );
 
   isValid &= validation.checkSelect(
